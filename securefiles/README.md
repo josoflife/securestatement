@@ -34,10 +34,10 @@
    ```
 2. Run the container:
    ```bash
-   docker run -d -p **80:8000** securefiles --name securefiles_app securefiles
+   docker run -d -p 80:8000 securefiles --name securefiles_app securefiles
    ```
 3. Access the app at http://127.0.0.1:8000/
-
+4. FOR PULL REQUEST, UNDER UPTIONAL SEETINGS, SET POT NUMBER TOO 80:8000 
 ## Testing
 Run all tests:
 ```bash
